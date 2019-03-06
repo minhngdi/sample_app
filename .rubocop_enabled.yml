@@ -1,5 +1,3 @@
-# These are all the cops that are enabled in the default configuration.
-
 Layout/AccessModifierIndentation:
   Description: Check indentation of private/protected visibility modifiers.
   Enabled: true
