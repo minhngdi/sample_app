@@ -3,9 +3,9 @@ vi:
     home:
       page_name: "Trang chủ"
       content_html: '<p>
-      Đây là trang chủ của
+      Đây là trang chủ của ứng dụng sample dựa trên
       <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-      ứng dụng sample.
+      .
       </p>'
     about:
       page_name: "Thông tin chi tiết"
@@ -31,5 +31,6 @@ vi:
       Liên hệ tới Ruby on Rails Tutorial về ứng dụng sample app tại
       <a href="https://www.railstutorial.org/contact">trang liên hệ</a>.
       </p>'
-
-
+  layouts:
+    application:
+      base_title: "Ứng dụng sample dựa trên Ruby on Rails Tutorial"
