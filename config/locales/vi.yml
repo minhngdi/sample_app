@@ -1,18 +1,35 @@
 vi:
+  layouts:
+    application:
+      base_title: "Ứng dụng sample dựa trên Ruby on Rails Tutorial"
+    header:
+      app_name: "sample app"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+    footer:
+      author_html:
+        'Cuốn sách <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        được sáng tác bởi <a href="http://www.michaelhartl.com/">Michael Hartl</a>'
+      about: "Thông tin"
+      contact: "Liên hệ"
+      news_html: '<a href="http://news.railstutorial.org/">Tin tức</a>'
   static_pages:
     home:
       page_name: "Trang chủ"
+      welcome: "Chào mừng đến Sample App"
       content_html: '<p>
       Đây là trang chủ của ứng dụng sample dựa trên
       <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
       .
       </p>'
+      sign_up: "Đăng ký ngay!"
     about:
       page_name: "Thông tin chi tiết"
       content_html: '<p> <a href="https://www.railstutorial.org/"><em>Ruby on Rails
       Tutorial</em></a> là tổng hợp của
       <a href="https://www.railstutorial.org/book">cuốn sách</a> và
-      <a href="http://screencasts.railstutorial.org/">ảnh chụp màn hình</a>
+      <a href="http://screencasts.railstutorial.org/">bộ ảnh chụp màn hình</a>
       để dạy phát triển web cùng với
       <a href="http://rubyonrails.org/">Ruby on Rails</a>.
       Đây là ứng dụng sample ứng với Ruby on Rails Tutorials.
@@ -31,6 +48,7 @@ vi:
       Liên hệ tới Ruby on Rails Tutorial về ứng dụng sample app tại
       <a href="https://www.railstutorial.org/contact">trang liên hệ</a>.
       </p>'
-  layouts:
-    application:
-      base_title: "Ứng dụng sample dựa trên Ruby on Rails Tutorial"
+  users:
+    new:
+      page_name: "Đăng ký"
+      content_html: "Đây sẽ là trang đăng ký dành cho người dùng mới."

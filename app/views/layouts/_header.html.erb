@@ -1,0 +1,18 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <nav>
+    <ul>
+      <%= link_to_unless_current "en", locale:"en" %>
+      <%= link_to_unless_current "vi", locale:"vi" %>
+    </ul>
+  </nav>
+  <div class="container">
+    <%= link_to t(".app_name"), '#', id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to t(".home"), root_path %></li>
+        <li><%= link_to t(".help"), help_path %></li>
+        <li><%= link_to t(".login"), '#' %></li>
+      </ul>
+    </nav>
+  </div>
+</header>
