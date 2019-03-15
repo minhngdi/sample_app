@@ -1,12 +1,29 @@
 en:
+  layouts:
+    application:
+      base_title: "Ruby on Rails Tutorial Sample App"
+    header:
+      app_name: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+    footer:
+      author_html:
+        'The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        by <a href="http://www.michaelhartl.com/">Michael Hartl</a>'
+      about: "About"
+      contact: "Contact"
+      news_html: '<a href="http://news.railstutorial.org/">News</a>'
   static_pages:
     home:
       page_name: "Home page"
+      welcome: "Welcome to the Sample App"
       content_html: '<p>
       This is the home page for the
       <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
       sample application.
       </p>'
+      sign_up: "Sign up now!"
     about:
       page_name: "About"
       content_html: '<p>  The <a href="https://www.railstutorial.org/"><em>Ruby on Rails
@@ -32,6 +49,7 @@ en:
       Contact the Ruby on Rails Tutorial about the sample app at the
       <a href="https://www.railstutorial.org/contact">contact page</a>.
       </p>'
-  layouts:
-    application:
-      base_title: "Ruby on Rails Tutorial Sample App"
+  users:
+    new:
+      page_name: "Sign up"
+      content_html: "This will be a signup page for new users."
