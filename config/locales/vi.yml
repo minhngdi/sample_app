@@ -1,7 +1,7 @@
 vi:
   layouts:
     application:
-      base_title: "Ứng dụng sample dựa trên Ruby on Rails Tutorial"
+      base_title: "Sample app từ Ruby on Rails Tutorial"
     header:
       app_name: "sample app"
       home: "Trang chủ"
