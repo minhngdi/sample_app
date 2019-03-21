@@ -1,0 +1,19 @@
+<% provide :title, t(".page_name") %>
+<h1><%= t ".page_name" %></h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_with scope: :session, url: login_path, local: true do |f| %>
+
+      <%= f.label User.human_attribute_name :email %>
+      <%= f.email_field :email, class: 'form-control' %>
+
+      <%= f.label User.human_attribute_name :password %>
+      <%= f.password_field :password, class: 'form-control' %>
+
+      <%= f.submit User.human_attribute_name(:log_in_btn), class: "btn btn-primary" %>
+    <% end %>
+
+    <p><%= t ".ask_new"%> <%= link_to t(".sign_up_now"), signup_path %></p>
+  </div>
+</div>
