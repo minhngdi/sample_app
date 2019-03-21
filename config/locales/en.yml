@@ -1,4 +1,12 @@
 en:
+  activerecord:
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Retype your password"
+        create_account_btn: "Create my account"
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -52,4 +60,12 @@ en:
   users:
     new:
       page_name: "Sign up"
-      content_html: "This will be a signup page for new users."
+    create:
+      messages:
+        success: "Welcome to the Sample App!"
+    show:
+      notfound: "User not found."
+  shared:
+    error_messages:
+      form: "The form has"
+      error: "error"

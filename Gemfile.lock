@@ -175,6 +175,9 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
+    rails-i18n (5.1.3)
+      i18n (>= 0.7, < 2)
+      railties (>= 5.0, < 6)
     railties (5.2.2)
       actionpack (= 5.2.2)
       activesupport (= 5.2.2)
@@ -257,12 +260,14 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   config
+  i18n (~> 1.6.0)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   mysql2 (>= 0.4.4, < 0.6.0)
   pg (= 0.20.0)
   puma (~> 3.11)
   rails (~> 5.2.2)
+  rails-i18n
   rubocop (~> 0.54.0)
   sass-rails (~> 5.0)
   selenium-webdriver

@@ -1,4 +1,12 @@
 vi:
+  activerecord:
+    attributes:
+      user:
+        name: "Tên"
+        email: "Địa chỉ email"
+        password: "Mật khẩu"
+        password_confirmation: "Nhập lại mật khẩu"
+        create_account_btn: "Tạo tài khoản của tôi"
   layouts:
     application:
       base_title: "Sample app từ Ruby on Rails Tutorial"
@@ -52,3 +60,12 @@ vi:
     new:
       page_name: "Đăng ký"
       content_html: "Đây sẽ là trang đăng ký dành cho người dùng mới."
+    create:
+      messages:
+        success: "Chào mừng đến với Sample App!"
+    show:
+      notfound: "Không tìm được User"
+  shared:
+    error_messages:
+      form: "Mẫu đăng kí hiện có "
+      error: "lỗi"
