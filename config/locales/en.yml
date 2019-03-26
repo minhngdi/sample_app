@@ -7,6 +7,7 @@ en:
         password: "Password"
         password_confirmation: "Retype your password"
         create_account_btn: "Create my account"
+        log_in_btn: "Log in"
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -14,7 +15,13 @@ en:
       app_name: "sample app"
       home: "Home"
       help: "Help"
+      users: "Users"
       login: "Log in"
+      language: "Languages"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
     footer:
       author_html:
         'The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
@@ -69,3 +76,10 @@ en:
     error_messages:
       form: "The form has"
       error: "error"
+  sessions:
+    new:
+      page_name: "Log in"
+      ask_new: "Don't have an account yet?"
+      sign_up_now: "Sign up now!"
+    flash:
+      login_fail: "Wrong email or password, please try again."

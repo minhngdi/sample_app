@@ -7,6 +7,7 @@ vi:
         password: "Mật khẩu"
         password_confirmation: "Nhập lại mật khẩu"
         create_account_btn: "Tạo tài khoản của tôi"
+        log_in_btn: "Đăng nhập"
   layouts:
     application:
       base_title: "Sample app từ Ruby on Rails Tutorial"
@@ -14,7 +15,13 @@ vi:
       app_name: "sample app"
       home: "Trang chủ"
       help: "Trợ giúp"
+      users: "Người dùng"
       login: "Đăng nhập"
+      language: "Ngôn ngữ"
+      account: "Tài khoản"
+      profile: "Hồ sơ cá nhân"
+      settings: "Thiết lập"
+      logout: "Đăng xuất"
     footer:
       author_html:
         'Cuốn sách <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
@@ -69,3 +76,10 @@ vi:
     error_messages:
       form: "Mẫu đăng kí hiện có "
       error: "lỗi"
+  sessions:
+    new:
+      page_name: "Đăng nhập"
+      ask_new : "Bạn chưa có tài khoản?"
+      sign_up_now: "Đăng kí ngay!"
+    flash:
+      login_fail: "Email hoặc mật khẩu chưa đúng. Xin nhập lại!"

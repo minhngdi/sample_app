@@ -1,12 +1,4 @@
 <% provide :title, t(".page_name") %>
-
-<nav>
-  <ul>
-    <%= link_to_unless_current "English", locale:"en" %>
-    <%= link_to_unless_current "Vietnamese", locale:"vi" %>
-  </ul>
-</nav>
-
 <h1><%= t ".page_name" %></h1>
 <p>
   <%= t ".content_html" %>
