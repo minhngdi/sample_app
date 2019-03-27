@@ -81,5 +81,6 @@ vi:
       page_name: "Đăng nhập"
       ask_new : "Bạn chưa có tài khoản?"
       sign_up_now: "Đăng kí ngay!"
+      remember_me_html: '<span>Hãy lưu tài khoản của tôi trên máy tính này</span>'
     flash:
       login_fail: "Email hoặc mật khẩu chưa đúng. Xin nhập lại!"

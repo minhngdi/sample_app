@@ -81,5 +81,6 @@ en:
       page_name: "Log in"
       ask_new: "Don't have an account yet?"
       sign_up_now: "Sign up now!"
+      remember_me_html: '<span>Remember me on this computer</span>'
     flash:
       login_fail: "Wrong email or password, please try again."
