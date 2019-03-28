@@ -6,8 +6,6 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Retype your password"
-        create_account_btn: "Create my account"
-        log_in_btn: "Log in"
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -67,11 +65,27 @@ en:
   users:
     new:
       page_name: "Sign up"
+      create_account_btn: "Create my account"
     create:
       messages:
         success: "Welcome to the Sample App!"
+    update:
+      messages:
+        success: "Profile updated"
+    not_login: "Please log in."
+    user_deleted: "User deleted"
+    user:
+      delete_confirm: "Bạn có thực sự muốn xóa người dùng này?"
     show:
       notfound: "User not found."
+    edit:
+      page_name: "Edit user"
+      page_title: "Update your profile"
+      save_btn: "Save changes"
+      change: "Change gravatar"
+    index:
+      page_name: "All users"
+      page_title: "All users"
   shared:
     error_messages:
       form: "The form has"
@@ -82,5 +96,6 @@ en:
       ask_new: "Don't have an account yet?"
       sign_up_now: "Sign up now!"
       remember_me_html: '<span>Remember me on this computer</span>'
+      log_in_btn: "Log in"
     flash:
       login_fail: "Wrong email or password, please try again."
