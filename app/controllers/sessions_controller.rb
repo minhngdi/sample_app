@@ -16,7 +16,7 @@ class SessionsController < ApplicationController
     log_in user
     remember_me = params[:session][:remember_me]
     remember_me == Settings.remember_yes ? remember(user) : forget(user)
-    redirect_to user
+    redirect_back_or user
   end
 
   def destroy

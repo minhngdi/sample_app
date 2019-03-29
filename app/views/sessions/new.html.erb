@@ -15,7 +15,7 @@
         <%= f.check_box :remember_me %>
         <%= t ".remember_me_html" %>
         <% end %>
-        <%= f.submit User.human_attribute_name(:log_in_btn), class: "btn btn-primary" %>
+        <%= f.submit t(".log_in_btn"), class: "btn btn-primary" %>
     <% end %>
 
     <p><%= t ".ask_new"%> <%= link_to t(".sign_up_now"), signup_path %></p>

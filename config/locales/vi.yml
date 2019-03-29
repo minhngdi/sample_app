@@ -6,8 +6,6 @@ vi:
         email: "Địa chỉ email"
         password: "Mật khẩu"
         password_confirmation: "Nhập lại mật khẩu"
-        create_account_btn: "Tạo tài khoản của tôi"
-        log_in_btn: "Đăng nhập"
   layouts:
     application:
       base_title: "Sample app từ Ruby on Rails Tutorial"
@@ -66,12 +64,27 @@ vi:
   users:
     new:
       page_name: "Đăng ký"
-      content_html: "Đây sẽ là trang đăng ký dành cho người dùng mới."
+      create_account_btn: "Tạo tài khoản của tôi"
     create:
       messages:
         success: "Chào mừng đến với Sample App!"
+    update:
+      messages:
+        success: "Thông tin của bạn đã được cập nhật."
+    not_login: "Bạn chưa đăng nhập."
+    user_deleted: "Đã xóa thành công"
+    user:
+      delete_confirm: "Bạn có thực sự muốn xóa người dùng này?"
     show:
       notfound: "Không tìm được User"
+    edit:
+      page_name: "Cập nhật"
+      page_title: "Cập nhật thông tin của bạn"
+      save_btn: "Lưu thay đổi"
+      change: "Đổi gravatar"
+    index:
+      page_name: "Danh sách"
+      page_title: "Danh sách người dùng"
   shared:
     error_messages:
       form: "Mẫu đăng kí hiện có "
@@ -82,5 +95,6 @@ vi:
       ask_new : "Bạn chưa có tài khoản?"
       sign_up_now: "Đăng kí ngay!"
       remember_me_html: '<span>Hãy lưu tài khoản của tôi trên máy tính này</span>'
+      log_in_btn: "Đăng nhập"
     flash:
       login_fail: "Email hoặc mật khẩu chưa đúng. Xin nhập lại!"

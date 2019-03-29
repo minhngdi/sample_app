@@ -12,7 +12,7 @@ class User < ApplicationRecord
   uniqueness: {case_sensitive: false}
 
   validates :password, presence: true,
-  length: {minimum: Settings.minimum_password_length}
+  length: {minimum: Settings.minimum_password_length}, allow_nil: true
 
   before_save :email_downcase
 
@@ -44,7 +44,11 @@ class User < ApplicationRecord
   end
 
   def forget
-    update :remember_digest => nil
+    update remember_digest: nil
+  end
+
+  def current_user? user
+    self == user
   end
 
   private
