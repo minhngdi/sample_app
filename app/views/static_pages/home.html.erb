@@ -1,13 +1,30 @@
 <% provide :title, t(".page_name") %>
 <body>
-  <div class="center jumbotron">
-    <h1><%= t ".welcome" %></h1>
-    <h2>
-      <%= t ".content_html" %>
-    </h2>
-    <%= link_to t(".sign_up"), signup_path , class: "btn btn-lg btn-primary" %>
-  </div>
-  <div class="img-responsive center">
-    <%= link_to image_tag("cat.jpeg", alt: "Cat pic"), '#' %>
-  </div>
+  <% if logged_in? %>
+    <div class="row">
+      <aside class="col-md-4">
+        <section class="user_info">
+          <%= render "shared/user_info" %>
+        </section>
+        <section class="micropost_form">
+          <%= render "shared/micropost_form" %>
+        </section>
+      </aside>
+      <div class="col-md-8">
+        <h3><%= t ".micropost_feed"%></h3>
+        <%= render "shared/feed" %>
+      </div>
+    </div>
+  <% else %>
+    <div class="center jumbotron">
+      <h1><%= t ".welcome" %></h1>
+      <h2>
+        <%= t ".content_html" %>
+      </h2>
+      <%= link_to t(".sign_up"), signup_path , class: "btn btn-lg btn-primary" %>
+    </div>
+    <div class="img-responsive center">
+      <%= link_to image_tag("cat.jpeg", alt: "Cat pic"), "#" %>
+    </div>
+  <% end %>
 </body>
