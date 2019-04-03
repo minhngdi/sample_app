@@ -1,4 +1,5 @@
 en:
+  size_alert: "Maximum file size is 5MB. Please choose a smaller file."
   activerecord:
     attributes:
       user:
@@ -37,6 +38,7 @@ en:
       sample application.
       </p>'
       sign_up: "Sign up now!"
+      micropost_feed: "Micropost Feed"
     about:
       page_name: "About"
       content_html: '<p>  The <a href="https://www.railstutorial.org/"><em>Ruby on Rails
@@ -67,17 +69,17 @@ en:
       page_name: "Sign up"
       create_account_btn: "Create my account"
     create:
-      messages:
-        success: "Welcome to the Sample App!"
+      success: "Welcome to the Sample App!"
     update:
       messages:
         success: "Profile updated"
     not_login: "Please log in."
     user_deleted: "User deleted"
     user:
-      delete_confirm: "Bạn có thực sự muốn xóa người dùng này?"
+      delete_confirm: "Are you sure?"
     show:
       notfound: "User not found."
+      micropost: "microposts"
     edit:
       page_name: "Edit user"
       page_title: "Update your profile"
@@ -90,6 +92,12 @@ en:
     error_messages:
       form: "The form has"
       error: "error"
+    user_info:
+      view_profile: "view my profile"
+      micropost: "micropost"
+    micropost_form:
+      composing: "Compose new micropost..."
+      post_btn: "Post"
   sessions:
     new:
       page_name: "Log in"
@@ -99,3 +107,14 @@ en:
       log_in_btn: "Log in"
     flash:
       login_fail: "Wrong email or password, please try again."
+  microposts:
+    create:
+      success: "Micropost created!"
+    micropost:
+      posted: "Posted "
+      ago: "ago"
+      delete: "delete"
+      delete_confirm: Are you sure?
+  post_deleted: "Micropost deleted"
+  delete_fail: "Can not delete post"
+  size_warning: "should be less than 5MB"

@@ -1,4 +1,5 @@
 vi:
+  size_alert: "Kích thước ảnh tối đa là 5MB, vui lòng chọn lại ảnh có kích thước nhỏ hơn."
   activerecord:
     attributes:
       user:
@@ -37,6 +38,7 @@ vi:
       .
       </p>'
       sign_up: "Đăng ký ngay!"
+      micropost_feed: "Bài đã đăng"
     about:
       page_name: "Thông tin chi tiết"
       content_html: '<p> <a href="https://www.railstutorial.org/"><em>Ruby on Rails
@@ -77,6 +79,7 @@ vi:
       delete_confirm: "Bạn có thực sự muốn xóa người dùng này?"
     show:
       notfound: "Không tìm được User"
+      micropost: "bài đăng"
     edit:
       page_name: "Cập nhật"
       page_title: "Cập nhật thông tin của bạn"
@@ -89,6 +92,12 @@ vi:
     error_messages:
       form: "Mẫu đăng kí hiện có "
       error: "lỗi"
+    user_info:
+      view_profile: "trang cá nhân"
+      micropost: "bài đã đăng"
+    micropost_form:
+      composing: "Đang soạn bài đăng mới..."
+      post_btn: "Đăng bài"
   sessions:
     new:
       page_name: "Đăng nhập"
@@ -98,3 +107,14 @@ vi:
       log_in_btn: "Đăng nhập"
     flash:
       login_fail: "Email hoặc mật khẩu chưa đúng. Xin nhập lại!"
+  microposts:
+    create:
+      success: "Đăng bài thành công."
+    micropost:
+      posted: "Đã đăng "
+      ago: "trước"
+      delete: "xóa"
+      delete_confirm: "Bạn có thực sự muốn xóa bài đăng này?"
+  post_deleted: "Xóa bài thành công"
+  delete_fail: "Không thể xóa bài đăng"
+  size_warning: "kích thước ảnh phải nhỏ hơn 5MB"
