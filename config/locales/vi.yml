@@ -64,12 +64,26 @@ vi:
       <a href="https://www.railstutorial.org/contact">trang liên hệ</a>.
       </p>'
   users:
+    index:
+      page_name: "Danh sách"
+      page_title: "Danh sách người dùng"
     new:
       page_name: "Đăng ký"
       create_account_btn: "Tạo tài khoản của tôi"
     create:
       messages:
         success: "Chào mừng đến với Sample App!"
+    show:
+      notfound: "Không tìm được User"
+      micropost: "bài đăng"
+    show_follow:
+      microposts_cl: "Các bài đăng:"
+      view_text: "xem trang cá nhân"
+    edit:
+      page_name: "Cập nhật"
+      page_title: "Cập nhật thông tin của bạn"
+      save_btn: "Lưu thay đổi"
+      change: "Đổi gravatar"
     update:
       messages:
         success: "Thông tin của bạn đã được cập nhật."
@@ -77,17 +91,11 @@ vi:
     user_deleted: "Đã xóa thành công"
     user:
       delete_confirm: "Bạn có thực sự muốn xóa người dùng này?"
-    show:
-      notfound: "Không tìm được User"
-      micropost: "bài đăng"
-    edit:
-      page_name: "Cập nhật"
-      page_title: "Cập nhật thông tin của bạn"
-      save_btn: "Lưu thay đổi"
-      change: "Đổi gravatar"
-    index:
-      page_name: "Danh sách"
-      page_title: "Danh sách người dùng"
+      delete: "xóa"
+    follow:
+      follow_btn: "Theo dõi"
+    unfollow:
+      unfollow_btn: "Bỏ theo dõi"
   shared:
     error_messages:
       form: "Mẫu đăng kí hiện có "
@@ -98,6 +106,9 @@ vi:
     micropost_form:
       composing: "Đang soạn bài đăng mới..."
       post_btn: "Đăng bài"
+    stats:
+      following: "đang theo dõi"
+      followers: "người theo dõi"
   sessions:
     new:
       page_name: "Đăng nhập"
@@ -118,3 +129,7 @@ vi:
   post_deleted: "Xóa bài thành công"
   delete_fail: "Không thể xóa bài đăng"
   size_warning: "kích thước ảnh phải nhỏ hơn 5MB"
+  relationships:
+    index:
+      followers: "Người theo dõi"
+      following: "Đang theo dõi"
