@@ -1,6 +1,7 @@
 gravatar:
   size: 60
   list_size: 50
+  mini_list_size: 30
 per_page_count: 15
 maximum_email_length: 256
 maximum_micropost_length: 140
