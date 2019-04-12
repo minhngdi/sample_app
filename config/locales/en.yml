@@ -73,6 +73,7 @@ en:
       create_account_btn: "Create my account"
     create:
       success: "Welcome to the Sample App!"
+      check_activate: "Please check your email to activate your account."
     show:
       notfound: "User not found."
       micropost: "microposts"
@@ -118,6 +119,9 @@ en:
       log_in_btn: "Log in"
     flash:
       login_fail: "Wrong email or password, please try again."
+    create:
+      account_not_active: "Account not activated."
+      check_active_link: "Check your email for the activation link."
   microposts:
     create:
       success: "Micropost created!"
@@ -133,3 +137,12 @@ en:
     index:
       followers: "Followers"
       following: "Following"
+  account_activations:
+    edit:
+      account_activated: "Account activated!"
+      invalid_active_link: "Invalid activation link"
+  user_mailer:
+    title: "Sample App"
+    hi: "Hi"
+    welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+    activate: "Activate"

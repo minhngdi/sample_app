@@ -71,8 +71,8 @@ vi:
       page_name: "Đăng ký"
       create_account_btn: "Tạo tài khoản của tôi"
     create:
-      messages:
-        success: "Chào mừng đến với Sample App!"
+      success: "Chào mừng đến với Sample App!"
+      check_activate: "Vui lòng kiểm tra email để kích hoạt tài khoản của bạn."
     show:
       notfound: "Không tìm được User"
       micropost: "bài đăng"
@@ -118,6 +118,9 @@ vi:
       log_in_btn: "Đăng nhập"
     flash:
       login_fail: "Email hoặc mật khẩu chưa đúng. Xin nhập lại!"
+    create:
+      account_not_active: "Tài khoản chưa được kích hoạt."
+      check_active_link: "Vui lòng kiểm tra đường dẫn trong hòm thư điện tử của bạn."
   microposts:
     create:
       success: "Đăng bài thành công."
@@ -133,3 +136,12 @@ vi:
     index:
       followers: "Người theo dõi"
       following: "Đang theo dõi"
+  account_activations:
+    edit:
+      account_activated: "Tài khoản đã được kích hoạt!"
+      invalid_active_link: "Đường dẫn kích hoạt không hợp lệ"
+  user_mailer:
+    title: "Ứng dụng Sample"
+    hi: "Xin chào"
+    welcome: "Chào mừng đến với ứng dụng Sample! Hãy bấm vào đường dẫn bên dưới để kích hoạt tài khoản của bạn:"
+    activate: "Kích hoạt"
